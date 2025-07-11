@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Head section-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yukta Gaikwad</title>
+    <meta name="description" content="Yukta Gaikwad - Full Stack Developer specializing in JavaScript, React, Node.js, and Python">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">Yukta Gaikwad</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#timeline">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div id="vanta-globe"></div>
+        <div class="hero-overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h1 class="hero-title" data-aos="fade-up">
+                        Hi! I'm <span class="neon-text">Yukta Gaikwad</span>
+                    </h1>
+                    <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                    Tech-driven student | Coding • 3D Modeling • Problem Solving
+                    <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
+                        <a href="#projects" class="btn btn-primary btn-lg me-3">View Projects</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg">Get In Touch</a>
+                    </div>
+                    <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="600">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center mb-4 mb-lg-0" data-aos="fade-right">
+                    <div class="profile-image-wrapper">
+                        <img src="/images/yukta.jpeg" alt="Yukta Gaikwad" class="profile-image">
+                        <div class="profile-border"></div>
+                    </div>
+                </div>
+                <div class="col-lg-8" data-aos="fade-left">
+                    <h2 class="section-title">
+                        <span id="typewriter"></span>
+                    </h2>
+                    <p class="lead mb-4">
+                        Hi there! I'm Yukta Gaikwad, a passionate IT student from Nagpur with a strong interest in software development and creative technologies. I enjoy turning ideas into real, functional solutions</p>
+                    <p class="mb-4">
+                        I'm currently pursuing my Diploma in Information Technology at Government Polytechnic College, Nagpur. I specialize in both frontend and backend development. I’ve also been part of various tech committees and hackathons, where I got to collaborate, learn, and build with incredible teams.
+                    </p>
+                    <p class="mb-4">
+                     I'm passionate about <span class="highlight">AWS , React, FastAPI , Firebase</span>, and bringing smooth, responsive UIs to life with animations. Outside of code, I enjoy working on design-oriented projects and 3D concepts, constantly pushing myself to learn new things and improve both creatively and technically
+                    </p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/yuki.gaikwad" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/yukta-gaikwad-40829828b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/yuktaa-gaikwad" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--TechStack Section-->
+    <section id="tech-stack" class="bg-black text-white py-20 px-6 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+            <!-- Section Header -->
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 tech-title">
+                    <span class="bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
+                        Tech Stack
+                    </span>
+                </h2>
+                <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+                    Technologies and tools I use to bring ideas to life
+                </p>
+            </div>
+
+            <!-- Navigation Pills -->
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <button class="nav-pill active" data-category="all">All</button>
+                <button class="nav-pill" data-category="frontend">Frontend</button>
+                <button class="nav-pill" data-category="backend">Backend</button>
+                <button class="nav-pill" data-category="database">Database</button>
+                <button class="nav-pill" data-category="tools">Tools</button>
+            </div>
+            <br>
+            <br>
+            <!-- Tech Grid -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6" id="tech-grid">
+                <!-- Frontend Technologies -->
+                <div class="tech-card" data-category="frontend">
+                    <div class="tech-icon">
+                        <i class="devicon-javascript-plain colored"></i>
+                    </div>
+                    <span class="tech-name">JavaScript</span>
+                </div>
+
+                <div class="tech-card" data-category="frontend">
+                    <div class="tech-icon">
+                        <i class="devicon-react-original colored"></i>
+                    </div>
+                    <span class="tech-name">React</span>
+                </div>
+
+                <div class="tech-card" data-category="frontend">
+                    <div class="tech-icon">
+                        <i class="devicon-tailwindcss-plain colored"></i>
+                    </div>
+                    <span class="tech-name">Tailwind CSS</span>
+                </div>
+
+                <div class="tech-card" data-category="frontend">
+                    <div class="tech-icon">
+                        <i class="devicon-html5-plain colored"></i>
+                    </div>
+                    <span class="tech-name">HTML5</span>
+                </div>
+
+                <div class="tech-card" data-category="frontend">
+                    <div class="tech-icon">
+                        <i class="devicon-css3-plain colored"></i>
+                    </div>
+                    <span class="tech-name">CSS3</span>
+                </div>
+
+                <div class="tech-card" data-category="frontend">
+                    <div class="tech-icon">
+                        <i class="devicon-bootstrap-plain colored"></i>
+                    </div>
+                    <span class="tech-name">Bootstrap</span>
+                </div>
+
+                <!-- Backend Technologies -->
+                <div class="tech-card" data-category="backend">
+                    <div class="tech-icon">
+                        <i class="devicon-nodejs-plain colored"></i>
+                    </div>
+                    <span class="tech-name">Node.js</span>
+                </div>
+
+                <div class="tech-card" data-category="backend">
+                    <div class="tech-icon">
+                        <i class="devicon-nextjs-original"></i>
+                    </div>
+                    <span class="tech-name">Next.js</span>
+                </div>
+
+                <div class="tech-card" data-category="backend">
+                    <div class="tech-icon">
+                        <i class="devicon-express-original colored"></i>
+                    </div>
+                    <span class="tech-name">Express.js</span>
+                </div>
+
+                <div class="tech-card" data-category="backend">
+                    <div class="tech-icon">
+                        <i class="devicon-python-plain colored"></i>
+                    </div>
+                    <span class="tech-name">Python</span>
+                </div>                    
+
+                <!-- Database Technologies -->
+                <div class="tech-card" data-category="database">
+                    <div class="tech-icon">
+                        <i class="devicon-mongodb-plain colored"></i>
+                    </div>
+                    <span class="tech-name">MongoDB</span>
+                </div>
+
+                <div class="tech-card" data-category="database">
+                    <div class="tech-icon">
+                        <i class="devicon-oracle-original colored"></i>
+                    </div>
+                    <span class="tech-name">Oracle</span>
+                </div>
+
+                <!-- Tools -->
+                <div class="tech-card" data-category="tools">
+                    <div class="tech-icon">
+                        <i class="devicon-git-plain colored"></i>
+                    </div>
+                    <span class="tech-name">Git</span>
+                </div>
+
+                <div class="tech-card" data-category="tools">
+                    <div class="tech-icon">
+                        <i class="devicon-docker-plain colored"></i>
+                    </div>
+                    <span class="tech-name">Docker</span>
+                </div>
+
+                <div class="tech-card" data-category="tools">
+                    <div class="tech-icon">
+                        <i class="devicon-github-original colored"></i>
+                    </div>
+                    <span class="tech-name">GitHub</span>
+                </div>
+
+                <div class="tech-card" data-category="tools">
+                    <div class="tech-icon">
+                        <i class="devicon-googlecloud-plain colored"></i>
+                    </div>
+                    <span class="tech-name">Google Cloud</span>
+                </div>
+
+                <div class="tech-card" data-category="tools">
+                    <div class="tech-icon">
+                        <i class="devicon-amazonwebservices-original colored"></i>
+                    </div>
+                    <span class="tech-name">AWS</span>
+                </div>
+
+                <!-- Programming Languages -->
+                <div class="tech-card" data-category="frontend">
+                    <div class="tech-icon">
+                        <i class="devicon-c-plain colored"></i>
+                    </div>
+                    <span class="tech-name">C</span>
+                </div>
+
+                <div class="tech-card" data-category="frontend">
+                    <div class="tech-icon">
+                        <i class="devicon-cplusplus-plain colored"></i>
+                    </div>
+                    <span class="tech-name">C++</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background Effects -->
+        <div class="absolute inset-0 pointer-events-none">
+            <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-blue-900/10 to-purple-900/10"></div>
+            <div class="floating-particles"></div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title" data-aos="fade-up">My Journey</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">
+                    Here are my education qualities and experiences
+                </p>
+            </div>
+            
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">March 2023</div>
+                        <h4>High School Completion</h4>
+                        <p>Completed High School from S.D.D.N.V High School and Junior College with 94% in SSC Board Examination</p>
+                        <div class="timeline-image">
+                            <img src="/images/school.webp" alt="High School" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">August 2023</div>
+                        <h4>Diploma in Information Technology</h4>
+                        <p>Currently pursuing Diploma in Information Technology from Government Polytechnic College, Nagpur. Achieved 91% in both 1st and 2nd year.</p>
+                        <div class="timeline-image">
+                            <img src="/images/cllg.jpg" alt="College" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">June 2024</div>
+                        <h4>Python Basics Course</h4>
+                        <p>Completed a basic internship/course on "Basics of Python" provided by the college. Built fundamentals and worked on real-life projects including Jarvis.</p>
+                        <div class="timeline-image">
+                            <img src="/images/image.png" alt="Python Course" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">June 2025</div>
+                        <h4>Cloud Computing Internship</h4>
+                        <p>Currently pursuing an internship at Clustor Computing Technology Pvt. Ltd. in the domain of Cloud Computing</p>
+                        <div class="timeline-image">
+                            <img src="/images/clustor.jpg" alt="Clustor Computing" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title" data-aos="fade-up">💻 Projects</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">
+                    Here are some of the projects I've worked on
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/images/github.png" alt="GitHub Activity Viewer" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="https://github.com/yuktaa-gaikwad/GitHub-User-Activity.git" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>🌸 GitHub Activity Viewer GUI 🌸</h5>
+                            <p>Fetches GitHub activity with a pretty GUI using Python and GitHub API.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">GUI</span>
+                                <span class="tech-tag">API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/images/facial-recognition (1).png" alt="Face recognition" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="https://github.com/yuktaa-gaikwad/FunnyFaceDetector.git" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>FunnyFaceFilter/Detector</h5>
+                            <p>A real-time face detection and overlay application using OpenCV and Python. This project captures video from your webcam, detects faces, and applies a mustache overlay for fun effects..</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Tkinter</span>
+                                <span class="tech-tag">GUI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/placeholder.svg?height=200&width=350" alt="AI Email Classifier" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>🌸 AI Email Classifier 🌸</h5>
+                            <p>Detects spam using ML and lets you try it live with a cute UI!</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">ML</span>
+                                <span class="tech-tag">AI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/placeholder.svg?height=200&width=350" alt="Web Chat App" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>🌸 Web Chat App 🌸</h5>
+                            <p>Real-time chat using serverless WebSockets and NoSQL.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">WebSocket</span>
+                                <span class="tech-tag">NoSQL</span>
+                                <span class="tech-tag">Real-time</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/placeholder.svg?height=200&width=350" alt="Resume Builder" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>🌸 Resume Builder 🌸</h5>
+                            <p>Create interactive resumes with drag-drop and templates!</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">HTML/CSS</span>
+                                <span class="tech-tag">Templates</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/placeholder.svg?height=200&width=350" alt="Cosmetic Store App" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>🌸 Cosmetic Store App 🌸</h5>
+                            <p>Tkinter-based cosmetic shop billing system with database.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Tkinter</span>
+                                <span class="tech-tag">Database</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Upcoming Projects -->
+            <div class="text-center mt-5 mb-4">
+                <h3 class="section-title" data-aos="fade-up">🚧 Upcoming Projects</h3>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="upcoming-project-card">
+                        <div class="upcoming-content">
+                            <h5>Web 3.0 Authentication System</h5>
+                            <p class="text-muted mb-2">Project Idea:</p>
+                            <p>Build a Decentralized Login System where users authenticate using their MetaMask wallet instead of traditional usernames/passwords</p>
+                            <div class="project-tech d.flex align-items-center">
+                                <span class="tech-tag">Web3.js</span>
+                                <span class="tech-tag">MetaMask</span>
+                                <span class="tech-tag">Ethereum</span>
+                            </div>
+                            <br>
+                            <button class="btn btn-warning">Stay Tuned</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="upcoming-project-card">
+                        <div class="upcoming-content">
+                            <h5> Real-Time Collaborative Code Editor (Cloud + WebSocket)</h5>
+                            <p class="text-muted mb-2">Project Idea:</p>
+                            <p> Create a live coding platform where multiple users can write, edit, and compile code together.Real-time sync and Firebase for auth/storage</p>
+                            <div class="project-tech d-flex align-items-center">
+                                <span class="tech-tag">Socket.io</span>
+                                <span class="tech-tag">Monaco Editor</span>
+                                <span class="tech-tag">Firebase</span>
+                            </div>
+                            <br>
+                            <button class="btn btn-warning">Stay Tuned</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="upcoming-project-card">
+                        <div class="upcoming-content">
+                            <h5>Voice-Powered Personal Assistant</h5>
+                            <p class="text-muted mb-2">Project Idea:</p>
+                            <p> Make your own “Jarvis”-style desktop assistant that responds to voice queries for reminders, weather, jokes.</p>
+                            <div class="project-tech d-flex align-items-center">
+                                <span class="tech-tag">SpeechRecognition</span>
+                                <span class="tech-tag">Pyttsx3</span>
+                                <span class="tech-tag">GPT-4 API</span>
+                            </div>
+                            <br>
+                            <button class="btn btn-warning">Stay Tuned</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding contact-section">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-title text-white mb-4" data-aos="fade-up">Reach Out</h2>
+                    <p class="lead text-white mb-4" data-aos="fade-up" data-aos-delay="200">
+                        Let's connect and build something amazing together!
+                    </p>
+                    <h3 class="contact-email" data-aos="fade-up" data-aos-delay="400">
+                        yuktaa.gaikwad@gmail.com
+                    </h3>
+                    <div class="contact-social" data-aos="fade-up" data-aos-delay="600">
+                        <a href="https://github.com/yuktaa-gaikwad" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i> Let's Connect
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--Scripts-->
+    <section>
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+        
+        <script>
+            // Initialize AOS
+            AOS.init({
+                duration: 1000,
+                once: true,
+                offset: 100
+            });
+
+            // Initialize Vanta Globe
+            VANTA.GLOBE({
+                el: "#vanta-globe",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color: 0x3f51b5,
+                backgroundColor: 0x1a1a2e
+            });
+
+            // Typewriter Effect
+            let typedOnce = false;
+            function runTypewriter(text, id) {
+                const element = document.getElementById(id);
+                element.innerHTML = "";
+                let i = 0;
+                function typing() {
+                    if (i < text.length) {
+                        element.innerHTML += text.charAt(i);
+                        i++;
+                        setTimeout(typing, 50);
+                    }
+                }
+                typing();
+            }
+
+            function isElementInViewport(el) {
+                const rect = el.getBoundingClientRect();
+                return (
+                    rect.top >= 0 &&
+                    rect.top <= (window.innerHeight || document.documentElement.clientHeight)
+                );
+            }
+
+            window.addEventListener("scroll", function () {
+                const el = document.getElementById("typewriter");
+                if (isElementInViewport(el)) {
+                    if (!typedOnce) {
+                        runTypewriter("About Me", "typewriter");
+                        typedOnce = true;
+                    }
+                }
+            });
+
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Navbar background change on scroll
+            window.addEventListener('scroll', function() {
+                const navbar = document.getElementById('mainNav');
+                if (window.scrollY > 100) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+
+            // Skill bar animation
+            const animateSkillBars = () => {
+                const skillBars = document.querySelectorAll('.skill-progress');
+                skillBars.forEach(bar => {
+                    const width = bar.getAttribute('data-width');
+                    bar.style.width = width + '%';
+                });
+            };
+
+            // Trigger skill bar animation when skills section is in view
+            const skillsSection = document.getElementById('skills');
+            const observ = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        animateSkillBars();
+                    }
+                });
+            });
+            observer.observe(skillsSection);
+        </script>
+        
+        <script>
+            // Filter functionality
+            const navPills = document.querySelectorAll('.nav-pill');
+            const techCards = document.querySelectorAll('.tech-card');
+
+            navPills.forEach(pill => {
+                pill.addEventListener('click', () => {
+                    // Remove active class from all pills
+                    navPills.forEach(p => p.classList.remove('active'));
+                    // Add active class to clicked pill
+                    pill.classList.add('active');
+
+                    const category = pill.getAttribute('data-category');
+                    
+                    // Filter tech cards
+                    techCards.forEach(card => {
+                        if (category === 'all' || card.getAttribute('data-category') === category) {
+                            card.style.display = 'flex';
+                            card.style.animation = 'fadeInUp 0.5s ease forwards';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // Intersection Observer for animations
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animationDelay = Math.random() * 0.5 + 's';
+                        entry.target.classList.add('animate');
+                    }
+                });
+            }, observerOptions);
+
+            // Observe all tech cards
+            techCards.forEach(card => {
+                observer.observe(card);
+            });
+
+            // Floating particles animation
+            function createParticle() {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDuration = Math.random() * 3 + 2 + 's';
+                particle.style.opacity = Math.random() * 0.5 + 0.2;
+                
+                document.querySelector('.floating-particles').appendChild(particle);
+                
+                setTimeout(() => {
+                    particle.remove();
+                }, 5000);
+            }
+
+            // Create particles periodically
+            setInterval(createParticle, 2000);
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script>
+            // Initialize AOS animations
+            AOS.init({
+                duration: 800,
+                easing: 'ease-in-out',
+                once: true,
+                offset: 100
+            });
+
+            // Form validation and submission
+            document.addEventListener('DOMContentLoaded', function() {
+                const form = document.getElementById('contactForm');
+                const submitBtn = document.getElementById('submitBtn');
+                const btnText = submitBtn.querySelector('.btn-text');
+                const btnLoading = submitBtn.querySelector('.btn-loading');
+                const successMessage = document.getElementById('successMessage');
+
+                // Email validation regex
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                // Phone validation regex (optional field)
+                const phoneRegex = /^[\+]?[0-9\s\-\(\)]{10,}$/;
+
+                // Real-time validation
+                form.addEventListener('input', function(e) {
+                    validateField(e.target);
+                });
+
+                // Form submission
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    // Hide success message
+                    successMessage.classList.add('d-none');
+
+                    // Validate all fields
+                    const isValid = validateForm();
+
+                    if (isValid) {
+                        submitForm();
+                    }
+
+                    form.classList.add('was-validated');
+                });
+
+                function validateField(field) {
+                    const value = field.value.trim();
+                    let isValid = true;
+
+                    // Remove previous validation classes
+                    field.classList.remove('is-valid', 'is-invalid');
+
+                    // Required field validation
+                    if (field.hasAttribute('required') && !value) {
+                        isValid = false;
+                    }
+
+                    // Email validation
+                    if (field.type === 'email' && value && !emailRegex.test(value)) {
+                        isValid = false;
+                    }
+
+                    // Phone validation (optional)
+                    if (field.type === 'tel' && value && !phoneRegex.test(value)) {
+                        isValid = false;
+                    }
+
+                    // Select validation
+                    if (field.tagName === 'SELECT' && field.hasAttribute('required') && !value) {
+                        isValid = false;
+                    }
+
+                    // Add validation classes
+                    if (field.hasAttribute('required') || (field.type === 'email' && value) || (field.type === 'tel' && value)) {
+                        field.classList.add(isValid ? 'is-valid' : 'is-invalid');
+                    }
+
+                    return isValid;
+                }
+
+                function validateForm() {
+                    let isValid = true;
+                    const fields = form.querySelectorAll('input[required], select[required], textarea[required]');
+
+                    fields.forEach(field => {
+                        if (!validateField(field)) {
+                            isValid = false;
+                        }
+                    });
+
+                    return isValid;
+                }
+
+                function submitForm() {
+                    // Show loading state
+                    submitBtn.disabled = true;
+                    btnText.classList.add('d-none');
+                    btnLoading.classList.remove('d-none');
+
+                    // Collect form data
+                    const formData = {
+                        firstName: document.getElementById('firstName').value.trim(),
+                        lastName: document.getElementById('lastName').value.trim(),
+                        email: document.getElementById('email').value.trim(),
+                        phone: document.getElementById('phone').value.trim(),
+                        subject: document.getElementById('subject').value,
+                        message: document.getElementById('message').value.trim(),
+                        timestamp: new Date().toISOString()
+                    };
+
+                    // Simulate API call
+                    setTimeout(() => {
+                        // Log form data (in real implementation, send to server)
+                        console.log('Form Data:', formData);
+
+                        // Show success message
+                        successMessage.classList.remove('d-none');
+                        
+                        // Reset form
+                        form.reset();
+                        form.classList.remove('was-validated');
+                        
+                        // Remove validation classes
+                        form.querySelectorAll('.is-valid, .is-invalid').forEach(field => {
+                            field.classList.remove('is-valid', 'is-invalid');
+                        });
+
+                        // Reset button
+                        submitBtn.disabled = false;
+                        btnText.classList.remove('d-none');
+                        btnLoading.classList.add('d-none');
+
+                        // Add pulse effect to success message
+                        successMessage.classList.add('pulse');
+
+                        // Scroll to success message
+                        successMessage.scrollIntoView({ 
+                            behavior: 'smooth', 
+                            block: 'nearest' 
+                        });
+
+                        // In a real application, you would send this data to your server
+                        // Example with fetch:
+                        /*
+                        fetch('/api/contact', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify(formData)
+                        })
+                        .then(response => response.json())
+                        .then(data => {
+                            // Handle success
+                            successMessage.classList.remove('d-none');
+                            form.reset();
+                        })
+                        .catch(error => {
+                            // Handle error
+                            console.error('Error:', error);
+                        });
+                        */
+
+                    }, 2000); // Simulate 2 second delay
+                }
+
+                // Add smooth animations to contact items
+                const contactItems = document.querySelectorAll('.contact-item');
+                contactItems.forEach((item, index) => {
+                    item.style.animationDelay = `${index * 0.1}s`;
+                });
+
+                // Add interactive effects to social links
+                const socialLinks = document.querySelectorAll('.social-link-contact');
+                socialLinks.forEach(link => {
+                    link.addEventListener('mouseenter', function() {
+                        this.style.transform = 'translateY(-5px) scale(1.1)';
+                    });
+                    
+                    link.addEventListener('mouseleave', function() {
+                        this.style.transform = 'translateY(0) scale(1)';
+                    });
+                });
+            });
+        </script>
+    </section>
+
+<!--Ending-->
+</body>
+</html>
